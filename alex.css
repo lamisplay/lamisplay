@@ -1,0 +1,27 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#container{
+    width:100% ;
+    height: 100vh;
+    background: linear-gradient(rgb(106, 214, 106),rgb(34, 240, 213),black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#subcontain{
+    padding: 20px;
+    height: 30vh;
+    width: 25%;
+    box-shadow: 3px 3px 3px 3px rgb(0, 0, 0);
+}
+button{
+    height:4vh;
+    width: 20%;
+    background-color: rgb(59, 59, 47);
+}
+button p{
+    font-size: 10px;
+    color: aliceblue;
+}
